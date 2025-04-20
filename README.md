@@ -32,5 +32,8 @@ Clone this repo:
 git clone https://github.com/Maxwellads/Vultr-multiDDNS
 ```
 And use it with systemd, cron or whatever you like :)
+```
+python3 ddns.py
+```
 
 Please note that Windows is currently not supported, which would be implemented later.
