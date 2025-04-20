@@ -15,11 +15,11 @@ Dynamically update IPv4/v6 addresses of subdomains by specified matches
   "dynamic_records": [
     {
       "name": "www",
-      "interfaces": ["eth0"],
+      "interfaces": ["eth0","enp1s0"],
       "mode": "local"
     },
-    {
-      "name": "www2",
+    { 
+      "name": "www1",
       "mode": "inet"
     }
   ]
