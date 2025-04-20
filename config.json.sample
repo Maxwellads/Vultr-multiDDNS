@@ -1,0 +1,15 @@
+{
+  "api_key": "MY_API_KEY",
+  "domain": "MY_DOMAIN",
+  "dynamic_records": [
+    {
+      "name": "www",
+      "interfaces": ["eth0","enp1s0"],
+      "mode": "local"
+    },
+    {
+      "name": "www1",
+      "mode": "inet"
+    }
+  ]
+}
